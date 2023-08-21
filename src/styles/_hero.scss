@@ -1,17 +1,16 @@
 @use 'variables';
 
 .hero {
-    padding-block: 64px 100px;
+    padding-block: 44px 50px;
     background-image: linear-gradient(29deg, #237eac, #663bac 59%, #df7e34 90%);
 
     &__partners {
-       margin-top: 48px;
        display: flex;
        justify-content: space-between;
 
        img {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
        }
     }
 
