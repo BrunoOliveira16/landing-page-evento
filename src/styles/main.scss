@@ -2,6 +2,8 @@
 @use 'hero';
 @use 'about';
 @use 'attractions';
+@use 'music';
+@use 'pool';
 
 * {
     box-sizing: border-box;
@@ -19,7 +21,7 @@ a {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1080px;
     width: 100%;
     margin: 0 auto;
 

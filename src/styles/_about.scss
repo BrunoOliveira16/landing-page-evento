@@ -33,8 +33,9 @@
     }
 
     &__image {
-
+        
         img {
+            max-width: 550px;
             border: 7px solid;
             border-image: linear-gradient(29deg, #237eac, #663bac 59%, #df7e34 90%) 1;
         }
