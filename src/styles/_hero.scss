@@ -11,6 +11,11 @@
        img {
         width: 200px;
         height: 200px;
+
+        @media (max-width: 640px) {
+            width: 80px;
+            height: 80px;
+        }
        }
     }
 
@@ -25,6 +30,11 @@
         text-align: center;
         text-transform: uppercase;
         -webkit-text-stroke: 3px #663bac;
+
+        @media (max-width: 640px) {
+            font-size: 80px;
+            line-height: 85px;
+        }
     }
 
     &__text {
