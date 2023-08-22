@@ -1,7 +1,9 @@
 ## 🏆 Landing Page de Evento
 ![GitHub repo size](https://img.shields.io/github/repo-size/BrunoOliveira16/landing-page-evento?style=for-the-badge)
 ![Languages](https://img.shields.io/github/languages/count/BrunoOliveira16/landing-page-evento?style=for-the-badge)
-![Status projeto](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-blue?style=for-the-badge)
+![Status projeto](https://img.shields.io/badge/STATUS-CONCLUIDO-GREEN?style=for-the-badge)
+
+<img src="./assets/screenshot.jpg" alt="screenshot do projeto" >
 
 <br>
 
@@ -18,7 +20,7 @@
 <br>
 
 ## 📌 Resumo do Projeto
-Em desenvolvimento...
+Este projeto é uma landing page de um evento ficticio pool party, Que permite o usuário verificar o tempo que falta até a data do evento, trás seções sobre os temas que irão ser abordados durante o evento, a página foi estilizada com sass, utilizado bibliotecas js para animação dos elementos, trabalhado com datas para implementar o contador via javascript e utilizado o parcel para gerenciamento de desenvolvimento e build do projeto.
 
 <br>
 
