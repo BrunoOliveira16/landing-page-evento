@@ -1,8 +1,7 @@
 {
   "name": "landing-page-evento",
   "version": "1.0.0",
-  "description": "![GitHub repo size](https://img.shields.io/github/repo-size/BrunoOliveira16/landing-page-evento?style=for-the-badge)\r ![Languages](https://img.shields.io/github/languages/count/BrunoOliveira16/landing-page-evento?style=for-the-badge)\r ![Status projeto](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-blue?style=for-the-badge)",
-  "main": "index.js",
+  "description": "Landig Page de evento pool party",
   "scripts": {
     "dev": "parcel index.html src/scripts/main.js src/styles/main.scss",
     "build": "parcel build index.html",
