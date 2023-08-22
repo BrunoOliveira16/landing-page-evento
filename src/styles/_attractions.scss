@@ -2,9 +2,9 @@
 
 .attractions {
     width: 100%;
-    background-image: linear-gradient(#deb27f,  #f3e8d2);
+    background-image: var(--bg-second-linear-gradient);
     padding-block: 56px;
-    color: #383a3b;
+    color: var(--text-second-color);
 
     &__content {
         display: grid;
@@ -28,13 +28,13 @@
                 width: 100%;
                 max-height: 150px;
                 border: 7px solid;
-                border-image: linear-gradient(29deg, #237eac, #663bac 59%, #df7e34 90%) 1;
+                border-image: var(--linear-gradient-first) 1;
             }
 
             h3 {
                 font-size: 28px;
                 margin: 8px 0;
-                color: #663bac;
+                color: var(--text-stroke-color);
             }
 
             p {
@@ -47,9 +47,9 @@
         font-size: 50px;
         margin-bottom: 16px;
         text-align: center;
-        -webkit-text-stroke: 2px #663bac;
+        -webkit-text-stroke: 2px var(--text-stroke-color);
         font-style: italic;
         font-weight: bold;
-        color: #fff;
+        color: var(--text-primary-color);
     }
 }

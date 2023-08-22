@@ -2,7 +2,7 @@
 
 .about {
     padding-block: 56px;
-    background-image: linear-gradient(#f3e8d2, #deb27f);
+    background-image: var(--bg-first-linear-gradient);
 
     .container {
         display: flex;
@@ -16,7 +16,7 @@
 
     &__content {
         width: 50%;
-        color: #fff;
+        color: var(--text-primary-color);
 
         @media (max-width: 720px) {
             width: 100%;
@@ -25,7 +25,7 @@
         &__title {
             font-size: 50px;
             margin-bottom: 16px;
-            -webkit-text-stroke: 2px #663bac;
+            -webkit-text-stroke: 2px var(--text-stroke-color);
             font-style: italic;
             font-weight: bold;
 
@@ -38,7 +38,7 @@
         &__text {
             font-size: 24px;
             line-height: 28px;
-            color: #383a3b;
+            color: var(--text-second-color);
         }
     }
 
@@ -55,7 +55,7 @@
             max-width: 550px;
             width: 100%;
             border: 7px solid;
-            border-image: linear-gradient(29deg, #237eac, #663bac 59%, #df7e34 90%) 1;
+            border-image: var(--linear-gradient-first) 1;
         }
     }
 }
