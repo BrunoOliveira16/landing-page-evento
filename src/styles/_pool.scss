@@ -3,6 +3,7 @@
 .pool {
     padding-block: 56px;
     background-image: var(--bg-second-linear-gradient);
+    overflow: hidden;
 
     .container {
         display: flex;

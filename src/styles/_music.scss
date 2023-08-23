@@ -3,6 +3,7 @@
 .music {
     padding-block: 56px;
     background-image: var(--bg-first-linear-gradient);
+    overflow: hidden;
 
     .container {
         display: flex;
